@@ -1,0 +1,17 @@
+auth_login
+1. The program will check if the password was correct or valid after checking the email
+2. No need to check if the email inputted is invalid, since user need to register with vali email beforehand
+3. The program will not tell the user which inputs are wrong 
+4. User can do multiple login
+
+auth_register
+1. User will always input something as email, password, first name and last name
+2. token returned is the same as user_id
+3. user id will not be randomly generated, instead it will be ordered 
+4. User registered with the same first and last name will be allowed
+5. User need to register his/her first and last name seperately
+6. password's length does not have a limit 
+7. Users will registered one by one (concurenccy)
+
+auth_logout
+1. User will not be given an option to log out without log in beforehand
